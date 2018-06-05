@@ -4,6 +4,10 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+* a class that turns a given file into a String arrayList, each line in a new
+* index.
+*/
 public class FileToLines {
     public static String[] getLines(File file){
         List<String> lines = new ArrayList<>();
